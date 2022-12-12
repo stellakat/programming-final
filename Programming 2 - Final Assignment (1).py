@@ -54,7 +54,7 @@ NewData
 
 st.title("Are you a LinkedIn User?")
 
-image = Image.open("C:/Users/sumit/Desktop/FINAL/DahlgrenSpringFlowers.jpg")
+image = Image.open("DahlgrenSpringFlowers.jpg")
 st.image(image, caption='Old North in the spring')
 
 income = st.slider("Income (low=1 to high=9)", 1, 9)
